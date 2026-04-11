@@ -31,8 +31,8 @@ jobs:
           java-version: '21'
 
 #      # Step 3: Build the project and run the tests using Maven
-#      - name: Build and Run Tests
-#        run: mvn clean test -Dheadless=true
+      - name: Build and Run Tests
+        run: mvn clean test -Dheadless=true
 #
 #      # Step 4: Upload the Extent Report so it can be downloaded from GitHub Actions
 #      - name: Upload Extent Report

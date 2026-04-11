@@ -35,6 +35,7 @@ public class ReadFromFile {
 
 
     static XSSFSheet sheet = workbook.getSheet("login");
+    static XSSFSheet sheet2 = workbook.getSheet("login");
 
     public static String email = sheet.getRow(1).getCell(0).getStringCellValue();
 

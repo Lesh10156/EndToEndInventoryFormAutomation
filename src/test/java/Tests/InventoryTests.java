@@ -209,10 +209,10 @@ public class InventoryTests extends Base {
     }
 
 
-//        @AfterTest
-//        public void closeBrowser () {
-//            driver.quit();
-//        }
+    @AfterTest
+    public void closeBrowser () {
+        driver.quit();
+    }
 
 }
 

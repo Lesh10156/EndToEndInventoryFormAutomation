@@ -5,6 +5,7 @@ import Utils.BrowserFactory;
 import Utils.TakeScreenShots;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
 
 public class Base {
 
@@ -19,4 +20,12 @@ public class Base {
     OrderReviewInventoryForm orderReviewInventoryForm = PageFactory.initElements(driver, OrderReviewInventoryForm.class);
 
     TakeScreenShots takeScreenshots = new TakeScreenShots();
+
+
+    @AfterClass
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }

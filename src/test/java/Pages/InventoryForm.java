@@ -120,10 +120,6 @@ public class InventoryForm {
     public void userEntersAddress() {
         address_id.sendKeys("123 Test Street");
 
-        String fieldValue = address_id.getAttribute("123 Test Street");
-        if (fieldValue == null || fieldValue.isEmpty()) {
-            System.out.println("Address is empty");
-        }
 
 
     }

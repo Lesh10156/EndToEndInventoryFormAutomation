@@ -14,6 +14,7 @@ This is the document that will explain to us how the project works
     * latest version
 * apache.poi
 * extentreports
+* Allure
 
 ## Design Pattern
 * Page Object Model
